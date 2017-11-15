@@ -7,7 +7,7 @@ public class SalesClass {
 	public void display(){
 		int sum=0;
 		System.out.println("Display Method");
-		for(int i=0;i<arr.length;i++){
+		for(int n:arr){
 			System.out.println(arr[i]);
 		sum+=arr[i];
 		}
